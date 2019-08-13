@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hospitalmanagement.MainActivity" >
+    <item
+        android:id="@+id/add_hospital"
+        android:title="Add Hospital MGT"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/delete_hospital_mgt"
+        android:title="Delete hospital MGT"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/update_hospital"
+        android:title="Update Hospital Mgt"
+        app:showAsAction="ifRoom"
+        />
+</menu>
